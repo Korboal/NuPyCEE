@@ -39,5 +39,5 @@ setup(
     install_requires=[
         "numpy",
         ],
-    packages = ['NuPyCEE'],
+    py-modules = [],
 )
