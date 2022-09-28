@@ -39,5 +39,5 @@ setup(
     install_requires=[
         "numpy",
         ],
-    py_modules=[],
+    packages = ['DOC', 'decay_data', 'evol_tables', 'yield_tables', 'stellab_data', 'ChETEC_school', 'm_dm_evolution', 'regression_tests'],
 )
