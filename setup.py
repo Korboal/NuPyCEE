@@ -39,5 +39,6 @@ setup(
     install_requires=[
         "numpy",
         ],
-    py_modules = [],
+    packages=find_packages(),
+    py_modules=["chem_evol", "imf_input", "omega", "read_yields", "stellab", "sygma"],
 )
