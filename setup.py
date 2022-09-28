@@ -39,4 +39,5 @@ setup(
     install_requires=[
         "numpy",
         ],
+    py_modules=[],
 )
